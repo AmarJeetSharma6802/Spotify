@@ -1,0 +1,96 @@
+* {
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+body {
+    background: #1f1f1f;
+}
+
+/* Flexbox container for aligning items */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#google-logo {
+    margin-bottom: 10px;
+}
+
+.search-bar {
+    width: 450px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    box-shadow: 5px 5px;
+    margin-bottom: 20px;
+
+}
+
+.search-button {
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: 5px 5px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.search-button:hover {
+    background-color: #090020;
+    box-shadow: 0 4px 8px 0 rgba(226, 226, 226, 0.2), 0 6px 20px 0 rgba(226, 226, 226, 0.2);
+
+}
+
+form {
+    margin-bottom: 40px;
+}
+
+
+.web-icon {
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 3px;
+    transition: 0.2s;
+    height: 45px;
+}
+
+.web-icon:hover {
+    box-shadow: 0 4px 8px 0 rgba(226, 226, 226, 0.2), 0 6px 20px 0 rgba(226, 226, 226, 0.2);
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 400px;
+    height: auto;
+    background-color: #1b1b1b;
+    border-radius: 20px;
+    padding: 0px;
+    margin-left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* Adjusted to margin-left */
+}
+
+#credit{
+    font-size: 11px;
+    color: gray;
+}
+
+#codepen-credit{
+    text-decoration: underline;
+}
+@media(max-width:950px) {
+    .flex-container{
+        flex-wrap: wrap;
+        
+    }
+    .sidebar{
+        margin-top: 2rem;
+    }
+}
